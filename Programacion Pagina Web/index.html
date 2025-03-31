@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes Locales Inalámbricas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="menu-container">
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        <div class="menu" id="menu">
+            <a href="#introduccion"><i class="fas fa-wifi"></i> Introducción</a>
+            <a href="#ventajas"><i class="fas fa-check-circle"></i> Ventajas </a>
+            <a href="#Inconvenientes"><i class="fas fa-check-circle"></i> Inconvenientes</a>
+            <a href="#clasificacion"><i class="fas fa-layer-group"></i> Clasificación</a>
+            <a href="#estandares"><i class="fas fa-broadcast-tower"></i> Estándares de Conexión</a>
+            <a href="#Modos de Operación"><i class="fas fa-microchip"></i> Modos de Operación</a>
+            <a href="#Componentes"><i class="fas fa-microchip"></i> Componentes</a>
+            <a href="#seguridad"><i class="fas fa-shield-alt"></i> Seguridad y Tipos</a>
+        </div>
+    </div>
+    <header>
+        <h1>Redes Locales Inalámbricas</h1>
+        <p class="subtitle">By Engelh Gutierrez y Lidia Patrón</p>
+    </header>
+    <main>
+        <section id="introduccion" class="card">
+            <div class="card-icon"><i class="fas fa-wifi"></i></div>
+            <h2>Introducción</h2>
+            <p>Las redes locales inalámbricas (WLAN) permiten la comunicación sin cables mediante tecnologías de radiofrecuencia o infrarrojos. Estas redes han ganado popularidad debido a su flexibilidad y facilidad de instalación, eliminando la necesidad de infraestructura física compleja.</p>
+            <p>Los datos se transmiten a través del aire mediante ondas electromagneticas en frecuencias como 2.4 GHz y 5 GHz, utilizadas por los esntadres Wi-Fi. La comunicación se realiza entre dispositivos mediante puntos de acceso (AP) o directamente en configuraciones AD hoc.</p>
+        </section>
+
+        <section id="ventajas" class="card">
+            <div class="card-icon"><i class="fas fa-check-circle"></i></div>
+            <h2>Ventajas </h2>
+            <p> ✅ Movilidad: Permiten a los usuarios conectarse desde cualquier punto dentro del área de cobertura.</p>
+            <p> ✅ Flexibilidad: No requieren infraestructura de cableado, facilitando la instalación y reubicación.</p>
+            <p> ✅ Escalabilidad: Se pueden ampliar fácilmente agregando nuevos dispositivos.</p>
+            <p> ✅ Reducción de costos: Eliminan gastos en cableado y mantenimiento de infraestructura física.</p>
+            <p> ✅ Fácil instalación: Menos tiempo y esfuerzo en comparación con redes cableadas.</p>
+        </section>
+
+        <section id="Desventajas" class="card">
+            <div class="card-icon"><i class="fas fa-check-circle"></i></div>
+            <h2>Inconvenientes</h2>
+            <p>❌ Interferencia: La señal puede verse afectada por obstáculos físicos y otras redes cercanas.</p>
+            <p>❌ Menor seguridad: Son más vulnerables a ataques debido a la naturaleza abierta de la transmisión inalámbrica.</p>
+            <p>❌ Menor rendimiento: Comparadas con redes cableadas, pueden experimentar mayor latencia y menor velocidad.</p>
+            <p>❌ Cobertura limitada: La señal puede degradarse con la distancia y los obstáculos en el entorno. </p>
+        </section>
+
+        <section id="clasificacion" class="card">
+            <div class="card-icon"><i class="fas fa-layer-group"></i></div>
+            <h2>Clasificación</h2>
+            <p>Se clasifican por su alcance en cuatro tipos principales: </p>
+            <p>1. WPAN (Wireless Personal Area Network): Redes de corto alcance, como Bluetooth y Zigbee.</p>
+            <p>2. WLAN (Wireless Local Area Network): Redes de área local, como Wi-Fi, utilizadas en hogares y empresas.</p>
+            <p>3. WMAN (Wireless Metropolitan Area Network): Redes de área metropolitana, como WiMAX.</p>
+            <p>3. WWAN (Wireless Wide Area Network): Redes de larga distancia, como conexiones celulares 4G y 5G.</p>
+            <p>Todas estas redes estan diseñadas con un propósito específico, desde uso Personal hasta infraestructuras de telecomunicaciones de gran escala.</p>
+        </section>
+
+        <section id="estandares" class="card">
+            <div class="card-icon"><i class="fas fa-broadcast-tower"></i></div>
+            <h2>Estándares de Conexión</h2>
+            <p>📡 Infrarrojos (IrDA): Comunicación de corto alcance, usada en controles remotos.</p>
+            <p>📡 Bluetooth: Redes WPAN para conexión de dispositivos como auriculares y teclados.</p>
+            <p>📡 Wi-Fi: Principal tecnología de WLAN, basada en la familia de estándares IEEE 802.11.</p>
+            <p>📡 WiMAX: Tecnología WMAN usada para proveer acceso a Internet en zonas amplias.</p>
+            <p>Evolución de los estándares Wi-Fi (IEEE 802.11): </p>
+            <p> 📡 802.11b: Primera versión comercial, operando en 2.4 GHz con hasta 11 Mbps.</p>
+            <p> 📡 802.11g: Mejor rendimiento que 802.11b, alcanzando 54 Mbps en 2.4 GHz.</p>
+            <p> 📡 802.11n: Introdujo MIMO, mejorando la velocidad hasta 600 Mbps.</p>
+            <p> 📡 802.11ac: Operando en 5 GHz con hasta 3.5 Gbps y mayor eficiencia.</p>
+            <p> 📡 802.11ax (Wi-Fi 6 y 6E): Aumenta la capacidad de usuarios conectados y la eficiencia en entornos saturados.</p>
+            <p> 📡 Wi-Fi 7 (802.11be): Próxima generación con velocidades aún mayores y menor latencia.</p>
+            
+        </section>
+
+        <section id="Modos de Operación" class="card">
+            <div class="card-icon"><i class="fas fa-microchip"></i></div>
+            <h2>Modos de Operación</h2>
+            <p>1️⃣ Modo Infraestructura: Dispositivos se conectan a través de un punto de acceso (AP), que gestiona la red.</p>
+            <p>2️⃣ Modo Ad hoc: Dispositivos se comunican directamente sin un punto de acceso centralizado.</p>
+        </section>
+
+        <section id="Componentes" class="card">
+            <div class="card-icon"><i class="fas fa-microchip"></i></div>
+            <h2>Componentes</h2>
+            <p>1. Punto de acceso (AP): Dispositivo que actúa como intermediario entre dispositivos inalámbricos y redes cableadas.</p>
+            <p>2. Tarjeta de red inalámbrica (NIC): Permite a los dispositivos conectarse a la red.</p>
+            <p>3. Antenas: Facilitan la transmisión y recepción de señales.</p>
+            <p>4. Controladores de red (WLC): Administran múltiples puntos de acceso en redes empresariales.</p>
+        </section>
+
+        <section id="seguridad" class="card">
+            <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+            <h2>Seguridad y Tipos</h2>
+            <p>La seguridad en redes WLAN es crucial debido a su vulnerabilidad a ataques externos. Existen diferentes mecanismos de autenticación y cifrado para proteger la información transmitida.</p>
+            <p>Tipo de seguridad: </p>
+            <p>autenticación</p>
+            <p>Autenticación abierta: Cualquier dispositivo puede conectarse sin credenciales (inseguro).</p>
+            <p> Clave compartida (WEP, WPA, WPA2, WPA3): Uso de claves secretas para validar dispositivos.</p>
+            <p>Autenticación 802.1X: Utiliza servidores RADIUS para mayor seguridad.</p>
+            <p>cifrado:</p>
+            <p>WEP (Wired Equivalent Privacy): Primer sistema de cifrado, ahora obsoleto debido a vulnerabilidades. </p>
+            <p>WPA (Wi-Fi Protected Access): Mejoró la seguridad de WEP, pero aún tiene fallas. </p>
+            <p>WPA2: Basado en AES, más seguro y ampliamente utilizado.</p>
+            <p>WPA3: Última versión, con mejoras en resistencia a ataques de diccionario y mayor seguridad en redes abiertas.
+            <p>Otras medidas de seguridad: </p>
+            <p>✔ Filtrado MAC: Solo dispositivos con direcciones MAC autorizadas pueden conectarse.</p>
+            <p>✔ Ocultamiento del SSID: Evita que el nombre de la red sea visible a usuarios no autorizados. </p>
+            <p>✔ VPN (Red Privada Virtual): Encripta la comunicación para mayor privacidad.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
